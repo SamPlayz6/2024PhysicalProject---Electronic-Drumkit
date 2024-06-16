@@ -22,6 +22,8 @@ void controlChange(byte channel, byte control, byte value) {
 void loop() {
   int value = analogRead(sensoroutput); 
 
+  Serial.println(analogRead(sensoroutput));
+
     if (value <= THRESHOLD)                    // function to check voltage level from sensor
     {
       Serial.println("Sending note on");
