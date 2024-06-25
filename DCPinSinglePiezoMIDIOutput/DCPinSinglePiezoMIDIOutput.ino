@@ -1,6 +1,6 @@
 #include <MIDIUSB.h>
 
-int sensoroutput = 2; // the analog pin connected to the sensor
+int sensoroutput = A11; // the analog pin connected to the sensor
 int THRESHOLD = 500;
 // Acoustic Snare on MIDI Channel 10 (internally, Channel 9)
 uint8_t channel = 1;  // MIDI channels are 0-15, so Channel 10 is 9
@@ -12,6 +12,7 @@ uint8_t velocity = 127;  // Maximum hit velocity
 void setup() {
   Serial.begin(115200);
   pinMode(LED_BUILTIN, OUTPUT);
+
 }
 
 void controlChange(byte channel, byte control, byte value) {
