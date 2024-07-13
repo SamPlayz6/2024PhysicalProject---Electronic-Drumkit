@@ -1,0 +1,48 @@
+Note Number,Drum Sound,Description
+35,Acoustic Bass Drum,Basic bass drum sound
+36,Bass Drum 1,Alternative bass drum sound
+37,Side Stick,Percussive "click" often used in snares
+38,Acoustic Snare,Standard snare drum sound
+39,Hand Clap,Handclap sound
+40,Electric Snare,Electronic snare sound
+41,Low Floor Tom,Lower-pitched tom-tom
+42,Closed Hi Hat,Closed high-hat cymbal sound
+43,High Floor Tom,Higher-pitched tom-tom
+44,Pedal Hi-Hat,Foot pedal high-hat cymbal sound
+45,Low Tom,Lower-pitched tom-tom (mid-range)
+46,Open Hi-Hat,Open high-hat cymbal sound
+47,Low-Mid Tom,Mid-range tom-tom, lower-pitched
+48,Hi Mid Tom,Mid-range tom-tom, higher-pitched
+49,Crash Cymbal 1,Standard crash cymbal sound
+50,High Tom,Highest-pitched tom-tom
+51,Ride Cymbal 1,Standard ride cymbal sound
+52,Chinese Cymbal,Sharp, cutting cymbal sound (China type)
+53,Ride Bell,Bell of a ride cymbal
+54,Tambourine,Tambourine sound
+55,Splash Cymbal,Short, sharp cymbal sound (splash type)
+56,Cowbell,Cowbell sound
+57,Crash Cymbal 2,Alternative crash cymbal sound
+58,Vibraslap,Percussive "jawbone" sound
+59,Ride Cymbal 2,Alternative ride cymbal sound
+60,Hi Bongo,High-pitched bongo drum
+61,Low Bongo,Low-pitched bongo drum
+62,Mute Hi Conga,High-pitched conga with muted slap
+63,Open Hi Conga,High-pitched conga with open slap
+64,Low Conga,Low-pitched conga drum
+65,High Timbale,High-pitched timbale
+66,Low Timbale,Low-pitched timbale
+67,High Agogo,High-pitched agogo bell
+68,Low Agogo,Low-pitched agogo bell
+69,Cabasa,Afro-Cuban percussion instrument
+70,Maracas,Standard maracas
+71,Short Whistle,Short whistle sound
+72,Long Whistle,Long whistle sound
+73,Short Guiro,Short scrape sound (guiro)
+74,Long Guiro,Long scrape sound (guiro)
+75,Claves,Wooden claves sound
+76,Hi Wood Block,High-pitched wood block
+77,Low Wood Block,Low-pitched wood block
+78,Mute Cuica,Muted cuica drum sound
+79,Open Cuica,Open cuica drum sound
+80,Mute Triangle,Muted triangle sound
+81,Open Triangle,Open triangle sound

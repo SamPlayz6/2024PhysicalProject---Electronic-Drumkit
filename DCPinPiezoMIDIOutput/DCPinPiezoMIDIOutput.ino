@@ -1,24 +1,24 @@
 #include <MIDIUSB.h>
 
 // Sensor analog pins
-int sensors[4] = {A2, A3, A4, A5};  // List of analog pins for the sensors - Snare1, Snare2, Snare3 , Bass(Floor Drum)
+int sensors[3] = {A9, A10, A11};  // D8, D9, D10, D12 - List of analog pins for the sensors - High Hat1, High Hat2, Right Snare1, Right Snare2
 int THRESHOLD = 250;
 
 uint8_t channel = 9;  // MIDI channel 10 for drums (internally 9, correcting the initial channel error)
-uint8_t pitches[4] = {38, 40, 42, 46};   // Different pitches for different drum sounds
+uint8_t pitches[3] = {38, 42, 46};   // Different pitches for different drum sounds
                                        // 38 - Acoustic Snare, 35 - Bass Drum, 42 - Closed Hi-Hat, 46 - Open Hi-Hat
 uint8_t velocity = 127;  // Maximum hit velocity
 
 void setup() {
   Serial.begin(115200);
   pinMode(LED_BUILTIN, OUTPUT);
-  for (int i = 0; i < 4; i++) {
+  for (int i = 0; i < 3; i++) {
     pinMode(sensors[i], INPUT);  // Set sensor pins as input
   }
 }
 
 void loop() {
-  for (int i = 0; i < 4; i++) {
+  for (int i = 0; i < 3; i++) {
     int value = analogRead(sensors[i]);
 
     if (i == 0) {
@@ -36,15 +36,6 @@ void loop() {
       delay(200); // Prevent rapid re-triggering
     }
   }
-  // int valueA1 = analogRead(sensors[0]);
-  // int valueA0 = analogRead(sensors[1]);
-  // int valueA3 = analogRead(sensors[2]);
-  // int valueA4 = analogRead(sensors[3]);
-
-
-  // Serial.println(valueA1);
-  // Serial.println(valueA3);
-  // Serial.println(valueA4);
 
 
   delay(10); // Loop delay to prevent excessive CPU usage

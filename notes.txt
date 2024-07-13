@@ -1,0 +1,12 @@
+Alter Code to take all 4 + 3(4) inputs
+
+Make it so that it can send a signal to more than one drum at once. Change from for loop to something else
+
+
+Make it so, if no signal is being recieved, it doesnt play anything.(It assigns a value of 1023 to that variable.)\
+
+
+Build out Github README.md
+
+
+Add a potentiometer - After, just through another analog pin record the potnetometer signal. THen use that vraible to change the volume of the MIDI device (Easy Implementation in code) 
